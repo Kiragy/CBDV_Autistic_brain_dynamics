@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source /software/system/modules/latest/init/bash
+module use /software/system/modules/NaN/generic
+module purge
+module load nan
+module load fsl/6.0.7.4
+
+/nan/ceph/network/system/el8/fsl/6.0.7.4/bin/melodic -i input_lists/PLB.txt -o CBD_plb/groupICA30_crmsk --nobet --sep_vn -a concat -m fmri/brain_mask.nii.gz --report --Oall -d 30 
+
+groupICA30_crmsk/melodic_IC.nii.gz 1 -1 0 cbdv_plb/dr12_cbd_asdvtd_30 fmri/masked_MAGACAN001C.nii.gz fmri/masked_MAGACAN002B.nii.gz fmri/masked_MAGACAN004A.nii.gz fmri/masked_MAGACAN005B.nii.gz fmri/masked_MAGACAN006A.nii.gz fmri/masked_MAGACAN008B.nii.gz fmri/masked_MAGACAN009C.nii.gz fmri/masked_MAGACAN010A.nii.gz fmri/masked_MAGACAN014C.nii.gz fmri/masked_MAGACAN015B.nii.gz fmri/masked_MAGACAN016B.nii.gz fmri/masked_MAGACAN017B.nii.gz fmri/masked_MAGACAN018B.nii.gz fmri/masked_MAGACAN101B.nii.gz fmri/masked_MAGACAN103A.nii.gz fmri/masked_MAGACAN105C.nii.gz fmri/masked_MAGACAN106C.nii.gz fmri/masked_MAGACAN107C.nii.gz fmri/masked_MAGACAN110C.nii.gz fmri/masked_MAGACAN111B.nii.gz fmri/masked_MAGACAN112A.nii.gz fmri/masked_MAGACAN117B.nii.gz fmri/masked_MAGACAN001B.nii.gz fmri/masked_MAGACAN002C.nii.gz fmri/masked_MAGACAN004C.nii.gz fmri/masked_MAGACAN005A.nii.gz fmri/masked_MAGACAN006B.nii.gz fmri/masked_MAGACAN008A.nii.gz fmri/masked_MAGACAN009A.nii.gz fmri/masked_MAGACAN010B.nii.gz fmri/masked_MAGACAN014A.nii.gz fmri/masked_MAGACAN015A.nii.gz fmri/masked_MAGACAN016C.nii.gz fmri/masked_MAGACAN017C.nii.gz fmri/masked_MAGACAN018A.nii.gz fmri/masked_MAGACAN101A.nii.gz fmri/masked_MAGACAN103C.nii.gz fmri/masked_MAGACAN105A.nii.gz fmri/masked_MAGACAN106B.nii.gz fmri/masked_MAGACAN107A.nii.gz fmri/masked_MAGACAN110B.nii.gz fmri/masked_MAGACAN111A.nii.gz fmri/masked_MAGACAN112B.nii.gz fmri/masked_MAGACAN117A.nii.gz
+
