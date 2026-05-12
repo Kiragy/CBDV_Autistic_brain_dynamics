@@ -3,6 +3,7 @@ Data name:
 - dt/dwt: dwell time
 - cl: number of clusters
 - fo: fractional occupance
+
 Code:
 - melodic_dualregression_command: the slurm script for running FSL melodic and dual regression
 - CBDV_R_codes: R codes for running statistical analysis and k-medoid
