@@ -6,4 +6,4 @@ Data name:
 
 Code:
 - melodic_dualregression_command: the slurm script for running FSL melodic and dual regression
-- CBDV_R_codes: R codes for running statistical analysis and k-medoid
+- CBDV_R_code: R code for running statistical analysis and k-medoid
