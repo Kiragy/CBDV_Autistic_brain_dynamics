@@ -21,5 +21,5 @@ Code:
 - CBDV_R_code: R code for running statistical analysis and k-medoid
 
 Required packages:
-dynfc
+dynfc, tidyverse, cluster, lmerTest
 
