@@ -7,7 +7,7 @@ Yan Ge1,2, Charlotte M. Pretzsch1, Sunniva Fenn-Moltu1,2, Mihail Dimitrov1, Bogd
 4) South London and Maudsley NHS Foundation Trust, London, United Kingdom
 5) Department of Neuroimaging, Institute of Psychiatry, Psychology & Neuroscience, King’s College London, London, United Kingdom
 6) MRC Centre for Neurodevelopmental Disorders, King’s College London, London, United Kingdom
-7) NIHR Maudsley Biomedical Research Centre (BRC), London, United Kingdom
+7) NIHR Biomedical Research Centre: Maudsley, London, United Kingdom
 8) The Institute for Translational Neurodevelopment, King's College London, London, United Kingdom
 *Joint senior authors
 
@@ -22,5 +22,5 @@ Code:
 
 Required packages:
 - FSL, R
-- R packkages: dynfc, tidyverse, cluster, lmerTest
+- R packages: dynfc, tidyverse, cluster, lmerTest
 
